@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Aroxia Specific Artifacts ---
+# Ignore the generated config and treasury
+config.json
+sect_treasury.json
+
+# Ignore temporary session files
+uploaded_temp
+Scroll.txt
+
+# Environment variables (if you ever use .env)
+.env
